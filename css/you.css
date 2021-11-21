@@ -54,6 +54,15 @@ body{
     letter-spacing: -3px;
     margin: 0px;
 }
+.spicial-heading:hover {
+    color: wheat;
+    font-size: 130px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: -3px;
+    margin: 0px;
+    transition-duration: 2s;
+}
 .spicial-heading + p {
     margin: -30px 0 0;
     text-align: center;
@@ -86,6 +95,12 @@ body{
 .header .logo{
     height: 60px;
     width: 100px;
+}
+.header .logo:hover {
+    justify-content: center;
+    height: 360px;
+    width: 400px;
+    transition-duration: 2s; 
 }
 .header .links {
     position: relative;
@@ -182,12 +197,21 @@ body{
     
 
 }
+
 .landing .intro h1 {
     margin: 0px;
     color: var(--main-color, #10cab7);
     font-size: 50px;
     font-weight: bold;
 
+}
+.landing .intro h1:hover {
+    margin: 0px;
+    color: var(--main-color, #10cab7);
+    font-size: 50px;
+    font-weight: bold;
+    font-size: 150px;
+    transition-duration: 2s;
 }
 .landing .intro p {
     font-size: 20px;
